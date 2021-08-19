@@ -28,13 +28,13 @@ Paso a paso para ejecutar la aplicación:
 - https://github.com/DavidSegura3/gatewayservermutant.git
 
 
-
-
-3. Clonar el proyecto.
-4. Una vez lo descarguen, validar el usuario y la contraseña de la base de datos, por defecto tengo los siguientes valores en el archivo de application.properties.
+4. Una vez clonados hacer checkout de la rama develop.
+5. Validar el usuario y la contraseña de la base de datos, por defecto tengo los siguientes valores en el archivo de application.properties.
 
 - spring.datasource.username=postgres
 - spring.datasource.password=admin
+
+Si tiene valores diferentes 
 
 5. Importar el proyecto como MAVEN en la IDE de su preferencia.
 6. Click derecho sobre el proyecto y correr.
