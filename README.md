@@ -29,6 +29,7 @@ Paso a paso para ejecutar la aplicación:
 
 
 4. Una vez clonados hacer checkout de la rama develop.
+
 5. Validar el usuario y la contraseña de la base de datos, por defecto tengo los siguientes valores en el archivo de application.properties.
 
 - spring.datasource.username=postgres
@@ -37,13 +38,16 @@ Paso a paso para ejecutar la aplicación:
 Si tiene valores diferentes cambiar el archivo application.propierties del proyecto mutantesmercadolibre.
 
 6. Importar los proyectos como MAVEN. 
+
 7. Ejecutar los proyectos en el siguiente orden:
+
 - EurekaServerMutant
-- MELIMutant
+- MELIMutant (Puede crear las instancias necesarias para que Eureka Server utilice el balancero de carga)
 - GatewayServerMutant
 
 
-7. Click derecho sobre el proyecto y correr.
+![image](https://user-images.githubusercontent.com/48692997/130153822-0311f650-04fa-47cc-ba0c-fe0368a4459e.png)
+
 
 
 8. Una vez el proyecto se encuentre arriba se deben ejecutar los siguientes endpoints:
