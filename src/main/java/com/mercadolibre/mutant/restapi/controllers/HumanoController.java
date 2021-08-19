@@ -9,7 +9,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mercadolibre.mutant.restapi.dto.EstadisticaDTO;
@@ -17,7 +16,6 @@ import com.mercadolibre.mutant.restapi.dto.HumanoDTO;
 import com.mercadolibre.mutant.restapi.services.IHumanoService;
 
 @RestController
-@RequestMapping("/api")
 public class HumanoController 
 {
 	@Autowired
