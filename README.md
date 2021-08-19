@@ -46,11 +46,7 @@ Si tiene valores diferentes cambiar el archivo application.propierties del proye
 - GatewayServerMutant
 
 
-![image](https://user-images.githubusercontent.com/48692997/130153822-0311f650-04fa-47cc-ba0c-fe0368a4459e.png)
-
-
-
-8. Una vez el proyecto se encuentre arriba se deben ejecutar los siguientes endpoints:
+8. Una vez los proyectos se encuentren arriba se deben ejecutar los siguientes endpoints:
 
 **El primer endpoint es para analizar el array y agregar los valores y determinar los mutantes**
 Endpoint de tipo POST:
@@ -70,13 +66,40 @@ Endpoint de tipo GET:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+![image](https://user-images.githubusercontent.com/48692997/130154180-b3976a93-37ec-48f9-b2a6-0231ea7fe350.png)
 
-**Explicación código**
+
+**Explicación proyectos y una parte del código**
+
+
+1. EurekaServerMutant - **Servidor Eureka**
+
+Cuando arrancamos el servicio MELIMutantes, se comunicará con el servidor Eureka para notificarle que está disponible para ser consumido. El servidor Eureka mantendrá la información del microservicio registrado y su estado. MELIMutantes le notificará su estado mediante heartbeats cada 30 segundos. Si pasados tres periodos heartbeats no recibe ninguna notificación del microservicio, lo eliminará de su registro. Al igual que si después de sacarlo del registro recibe tres notificaciones, entenderá que ese microservicio vuelve a estar disponible. 
+
+2. MELIMutant - **Microservicio** 
+
+
+
+
 
 1. Valido la longitud del array.
 2. Valido que el array sea de NxN.
 3. Valido que el los caracteres ingresados sean los permitodos(A - T - C - G).
 4. Luego de esas validaciones empiezo paso seguido es validar si existe alguna secuencia de manera horizontal, verticual y oblicua(izquierda/derecha).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 > @Author - David Segura
