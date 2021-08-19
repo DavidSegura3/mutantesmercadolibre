@@ -89,6 +89,11 @@ El siguiente diagrama proporciona una descripción general de alto nivel de cóm
 
 ![image](https://user-images.githubusercontent.com/48692997/130154942-80a637c0-95fe-4fde-95c8-7c1fe5a6af79.png)
 
+
+Imagen sacada de: https://cloud.spring.io/spring-cloud-gateway/reference/html/
+
+
+
 Eureka server realiza solicitudes a Spring Cloud Gateway. Si la asignación del controlador de la puerta de enlace determina que una solicitud coincide con una ruta, se envía al controlador web de la puerta de enlace. 
 
 
