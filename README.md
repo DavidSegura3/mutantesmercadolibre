@@ -1,8 +1,12 @@
 # mutantesmercadolibre
 Paso a paso para ejecutar la aplicación:
 
-1. Tener instalado PostgreSQL.
-2. Ejecutar los siguientes queries:
+1. Instalar PostgreSQL
+- Al momento de instalar tener en cuenta la siguiente configuración del motor de base de datos:
+- usuario: postgres
+- contrasena: admin
+
+2. Luego de instalar el motor de base de datos ejecutar los siguientes queries:
 
 - create database mutantes;
 
@@ -16,6 +20,14 @@ Paso a paso para ejecutar la aplicación:
     CONSTRAINT humano_pk PRIMARY KEY (id),
     CONSTRAINT humano_uk unique (adn)
 }
+
+3. Clonar y descargar los siguientes proyectos:
+
+- 
+
+
+
+
 3. Clonar el proyecto.
 4. Una vez lo descarguen, validar el usuario y la contraseña de la base de datos, por defecto tengo los siguientes valores en el archivo de application.properties.
 
