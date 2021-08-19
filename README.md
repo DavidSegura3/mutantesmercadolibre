@@ -1,7 +1,7 @@
 # mutantesmercadolibre
 Paso a paso para ejecutar la aplicación:
 
-1. Instalar PostgreSQL
+1. Instalar PostgreSQL(Si ya tiene instalado Postgres omitir este paso)
 - Al momento de instalar tener en cuenta la siguiente configuración del motor de base de datos:
 - usuario: postgres
 - contrasena: admin
@@ -23,7 +23,9 @@ Paso a paso para ejecutar la aplicación:
 
 3. Clonar y descargar los siguientes proyectos:
 
-- 
+- https://github.com/DavidSegura3/eurekaservermutante.git
+- https://github.com/DavidSegura3/mutantesmercadolibre.git
+- https://github.com/DavidSegura3/gatewayservermutant.git
 
 
 
