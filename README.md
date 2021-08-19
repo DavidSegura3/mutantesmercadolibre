@@ -34,11 +34,19 @@ Paso a paso para ejecutar la aplicación:
 - spring.datasource.username=postgres
 - spring.datasource.password=admin
 
-Si tiene valores diferentes 
+Si tiene valores diferentes cambiar el archivo application.propierties del proyecto mutantesmercadolibre.
 
-5. Importar el proyecto como MAVEN en la IDE de su preferencia.
-6. Click derecho sobre el proyecto y correr.
-7. Una vez el proyecto se encuentre arriba se deben ejecutar los siguientes endpoints:
+6. Importar los proyectos como MAVEN. 
+7. Ejecutar los proyectos en el siguiente orden:
+- EurekaServerMutant
+- MELIMutant
+- GatewayServerMutant
+
+
+7. Click derecho sobre el proyecto y correr.
+
+
+8. Una vez el proyecto se encuentre arriba se deben ejecutar los siguientes endpoints:
 
 **El primer endpoint es para analizar el array y agregar los valores y determinar los mutantes**
 Endpoint de tipo POST:
