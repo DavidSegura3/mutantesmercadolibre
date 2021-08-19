@@ -39,3 +39,18 @@ Endpoint de tipo POST:
 **El segundo endpoint es sacar las estadisticas de humanos vs mutantes**
 Endpoint de tipo GET:
 - http://localhost:8081/api/stats
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+**Explicación código**
+
+1. Valido la longitud del array.
+2. Valido que el array sea de NxN.
+3. Valido que el los caracteres ingresados sean los permitodos(A - T - C - G).
+4. Luego de esas validaciones empiezo paso seguido es validar si existe alguna secuencia de manera horizontal, verticual y oblicua(izquierda/derecha).
+
+
+> @Author - David Segura
