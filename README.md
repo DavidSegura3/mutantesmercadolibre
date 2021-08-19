@@ -28,7 +28,7 @@ Paso a paso para ejecutar la aplicación:
 
 **El primer endpoint es para analizar el array y agregar los valores y determinar los mutantes**
 Endpoint de tipo POST:
-- http://localhost:8081/api/mutant
+- http://localhost:8090/api/mutantes/mutant
 - Body:
 {
     "adn" : [
@@ -38,7 +38,7 @@ Endpoint de tipo POST:
 
 **El segundo endpoint es sacar las estadisticas de humanos vs mutantes**
 Endpoint de tipo GET:
-- http://localhost:8081/api/stats
+- http://localhost:8090/api/mutantes/stats
 
 
 
