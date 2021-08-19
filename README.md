@@ -66,8 +66,6 @@ Endpoint de tipo GET:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![image](https://user-images.githubusercontent.com/48692997/130154180-b3976a93-37ec-48f9-b2a6-0231ea7fe350.png)
-
 
 **Explicación proyectos y una parte del código**
 
@@ -76,30 +74,36 @@ Endpoint de tipo GET:
 
 Cuando arrancamos el servicio MELIMutantes, se comunicará con el servidor Eureka para notificarle que está disponible para ser consumido. El servidor Eureka mantendrá la información del microservicio registrado y su estado. MELIMutantes le notificará su estado mediante heartbeats cada 30 segundos. Si pasados tres periodos heartbeats no recibe ninguna notificación del microservicio, lo eliminará de su registro. Al igual que si después de sacarlo del registro recibe tres notificaciones, entenderá que ese microservicio vuelve a estar disponible. 
 
+
 2. MELIMutant - **Microservicio** 
 
+- Valido la longitud del array.
+- Valido que el array sea de NxN.
+- Valido que el los caracteres ingresados sean los permitodos(A - T - C - G).
+- Luego de esas validaciones empiezo paso seguido es validar si existe alguna secuencia de manera horizontal, verticual y oblicua(izquierda/derecha).
+
+
+3. GatewayServerMutant - **Spring Cloud Gateway**
+
+El siguiente diagrama proporciona una descripción general de alto nivel de cómo funciona Spring Cloud Gateway:
+
+![image](https://user-images.githubusercontent.com/48692997/130154942-80a637c0-95fe-4fde-95c8-7c1fe5a6af79.png)
+
+Eureka server realiza solicitudes a Spring Cloud Gateway. Si la asignación del controlador de la puerta de enlace determina que una solicitud coincide con una ruta, se envía al controlador web de la puerta de enlace. 
+
+
+El funcionamiento de como vamos a trabajar en este proyecto, la siguiente imagen lo define mejor, por si no me hice entender.
+
+
+![image](https://user-images.githubusercontent.com/48692997/130154180-b3976a93-37ec-48f9-b2a6-0231ea7fe350.png)
+
+
+
+En la imagen aparece Gateway zull, yo estoy utilizando **Spring Cloud Gateway**, adicional solo tengo un servicio con balanceo de carga y se llama MELIMutant.
 
 
 
 
-1. Valido la longitud del array.
-2. Valido que el array sea de NxN.
-3. Valido que el los caracteres ingresados sean los permitodos(A - T - C - G).
-4. Luego de esas validaciones empiezo paso seguido es validar si existe alguna secuencia de manera horizontal, verticual y oblicua(izquierda/derecha).
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> @Author - David Segura
+> @Author - David Segura - 20-08-2021.
