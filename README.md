@@ -38,9 +38,13 @@ Una vez creada la base de datos ejecutar los siguientes queries:
 - spring.datasource.username=postgres
 - spring.datasource.password=admin
 
-Si tiene valores diferentes cambiar el archivo application.propierties del proyecto mutantesmercadolibre.
+Si tiene valores diferentes cambiar el archivo application.propierties del proyecto mutantesmercadolibre que se encuentra en la ruta src\main\resources
 
-6. Importar los proyectos como MAVEN. 
+
+
+6. Importar los proyectos como MAVEN en la IDE spring tool suite o intellij, si no lo tiene ninguno de los dos, adjunto la ruta para descargar spring tool suite:
+
+
 
 7. Ejecutar los proyectos en el siguiente orden:
 
