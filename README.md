@@ -42,10 +42,7 @@ Si tiene valores diferentes cambiar el archivo application.propierties del proye
 
 
 
-6. Importar los proyectos como MAVEN en la IDE spring tool suite o intellij, si no lo tiene ninguno de los dos, adjunto la ruta para descargar spring tool suite:
-
-https://drive.google.com/file/d/17TZMFExz3j_UnoDYdQYCIc4_XNrsvf4r/view?usp=sharing
-
+6. Importar los proyectos como MAVEN en la IDE eclipse, spring tool suite o intellij, 
 
 
 7. Ejecutar los proyectos en el siguiente orden:
