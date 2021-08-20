@@ -45,7 +45,7 @@ Si tiene valores diferentes cambiar el archivo application.propierties del proye
 6. Importar los proyectos como MAVEN en la IDE eclipse, spring tool suite o intellij, 
 
 
-7. Ejecutar los proyectos en el siguiente orden:
+7. Ejecutar los proyectos **run as spring boot app** en el siguiente orden:
 
 - EurekaServerMutant
 - MELIMutant (Puede crear las instancias necesarias para que Eureka Server utilice el balancero de carga)
