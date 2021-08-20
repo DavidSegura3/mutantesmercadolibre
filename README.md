@@ -20,7 +20,7 @@ Paso a paso para ejecutar la aplicación:
     mutante Boolean			NOT NULL,
     CONSTRAINT humano_pk PRIMARY KEY (id),
     CONSTRAINT humano_uk unique (adn)
-}
+)
 
 3. Clonar y descargar los siguientes proyectos:
 
