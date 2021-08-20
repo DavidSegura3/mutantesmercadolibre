@@ -54,7 +54,7 @@ Si tiene valores diferentes cambiar el archivo application.propierties del proye
 - GatewayServerMutant
 
 
-8. Una vez los proyectos se encuentren arriba se deben ejecutar los siguientes endpoints:
+8. Una vez los proyectos se encuentren arriba se deben ejecutar los siguientes endpoints en postman o soapUI
 
 **El primer endpoint es para analizar el array y agregar los valores y determinar los mutantes**
 Endpoint de tipo POST:
