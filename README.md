@@ -7,9 +7,11 @@ Paso a paso para ejecutar la aplicación:
 - usuario: postgres
 - contrasena: admin
 
-2. Luego de instalar el motor de base de datos ejecutar los siguientes queries:
+2. Luego de instalar el motor de base de datos debe:
 
-- create database mutantes;
+- Crear base de datos mutantes.
+
+Una vez creada la base de datos ejecutar los siguientes queries:
 
 - create schema mutante;
 
@@ -24,12 +26,12 @@ Paso a paso para ejecutar la aplicación:
 
 3. Clonar y descargar los siguientes proyectos:
 
-- https://github.com/DavidSegura3/eurekaservermutante.git
-- https://github.com/DavidSegura3/mutantesmercadolibre.git
-- https://github.com/DavidSegura3/gatewayservermutant.git
+- git clone https://github.com/DavidSegura3/eurekaservermutante.git
+- git git clone https://github.com/DavidSegura3/mutantesmercadolibre.git
+- git clone https://github.com/DavidSegura3/gatewayservermutant.git
 
 
-4. Una vez clonados hacer checkout de la rama develop.
+4. Una vez clonados hacer checkout de la rama develop de los tres proyectos clonados anteriormente.
 
 5. Validar el usuario y la contraseña de la base de datos, por defecto tengo los siguientes valores en el archivo de application.properties.
 
