@@ -27,7 +27,7 @@ Una vez creada la base de datos ejecutar los siguientes queries:
 3. Clonar y descargar los siguientes proyectos:
 
 - git clone https://github.com/DavidSegura3/eurekaservermutante.git
-- git git clone https://github.com/DavidSegura3/mutantesmercadolibre.git
+- git clone https://github.com/DavidSegura3/mutantesmercadolibre.git
 - git clone https://github.com/DavidSegura3/gatewayservermutant.git
 
 
