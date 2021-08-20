@@ -44,6 +44,8 @@ Si tiene valores diferentes cambiar el archivo application.propierties del proye
 
 6. Importar los proyectos como MAVEN en la IDE eclipse, spring tool suite o intellij, 
 
+**Tener en cuenta que el proyecto MELIMutant utiliza para la entidad la librería lombook, si no la tiene en la ide, por favor instalarla.**
+
 
 7. Ejecutar los proyectos **run as spring boot app** en el siguiente orden:
 
